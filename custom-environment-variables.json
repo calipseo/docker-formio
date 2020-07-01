@@ -1,0 +1,69 @@
+{
+  "domain": "API_URL",
+  "mongoSecret": "MONGO_SECRET",
+  "mongo": "MONGO",
+  "mongoConfig": "MONGO_CONFIG",
+  "mongoSA": "MONGO_SA",
+  "jwt": {
+    "secret": "JWT_SECRET"
+  },
+  "email": {
+    "type": "EMAIL_TRANSPORT",
+    "username": "EMAIL_USER",
+    "password": "EMAIL_PASSWORD"
+  },
+  "settings": {
+    "office365": {
+      "tenant": "O365_TENANT",
+      "clientId": "O365_CLIENT_ID",
+      "email": "O365_EMAIL",
+      "cert": "O365_CERT",
+      "thumbprint": "O365_THUMBPRINT"
+    },
+    "databases": {
+      "mysql": {
+        "host": "MYSQL_HOST",
+        "port": "MYSQL_PORT",
+        "database": "MYSQL_DBNAME",
+        "user": "MYSQL_USER",
+        "password": "MYSQL_PASSWORD"
+      },
+      "mssql": {
+        "host": "MSSQL_HOST",
+        "port": "MSSQL_PORT",
+        "database": "MSSQL_DBNAME",
+        "user": "MSSQL_USER",
+        "password": "MSSQL_PASSWORD"
+      }
+    },
+    "email": {
+      "gmail": {
+        "auth": {
+          "user": "GMAIL_USER",
+          "pass": "GMAIL_PASSWORD"
+        }
+      },
+      "sendgrid": {
+        "auth": {
+          "api_user": "SENDGRID_USER",
+          "api_key": "SENDGRID_KEY"
+        }
+      },
+      "mandrill": {
+        "auth": {
+          "apiKey": "MANDRIL_KEY"
+        }
+      },
+      "smtp": {
+        "host": "SMPT_HOST",
+        "port": "SMPT_PORT",
+        "secure": "SMPT_SECURE",
+        "auth": {
+          "user": "SMPT_USERNAME",
+          "pass": "SMPT_PASSWORD"
+        },
+        "allowUnauthorizedCerts": "SMTP_ALLOW_UNAUTHORIZED"
+      }
+    }
+  }
+}
