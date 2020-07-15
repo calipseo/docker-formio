@@ -3,7 +3,7 @@ FROM node:12-alpine
 LABEL   org.label-schema.vendor="Food and Agriculture Organization of the United Nations" \
         maintainer="Alfredo Irarrazaval <alfredo.irarrazaval@fao.org>"
 
-ARG API_TAG="v1.87.0"
+ARG API_TAG="v1.90.2"
 ARG CLIENT_TAG="v1.5.0"
 
 ENV ROOT_EMAIL=admin@example.com
