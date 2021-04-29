@@ -55,12 +55,12 @@
         }
       },
       "smtp": {
-        "host": "SMPT_HOST",
-        "port": "SMPT_PORT",
-        "secure": "SMPT_SECURE",
+        "host": "SMTP_HOST",
+        "port": "SMTP_PORT",
+        "secure": "SMTP_SECURE",
         "auth": {
-          "user": "SMPT_USERNAME",
-          "pass": "SMPT_PASSWORD"
+          "user": "SMTP_USERNAME",
+          "pass": "SMTP_PASSWORD"
         },
         "allowUnauthorizedCerts": "SMTP_ALLOW_UNAUTHORIZED"
       }

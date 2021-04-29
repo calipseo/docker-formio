@@ -111,8 +111,8 @@ The Formio API Server allows you to configure different types of email transport
 | **SENDGRID_USER** | The Sendgrid transport API user. | |
 | **SENDGRID_KEY** | The Sendgrid transport API key. | |
 | **MANDRIL_KEY** | The Mandrill transport API key. | |
-| **SMTP_HOST** | The SMPT transport server host. | |
-| **SMTP_PORT** | The SMPT transport server port. | |
+| **SMTP_HOST** | The SMTP transport server host. | |
+| **SMTP_PORT** | The SMTP transport server port. | |
 | **SMTP_SECURE** | Wether the SMTP transport server uses SSL/TLS. | |
 | **SMTP_USERNAME** | The SMTP transport username. | |
 | **SMTP_PASSWORD** | The SMTP transport password. | |
